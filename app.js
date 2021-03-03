@@ -30,6 +30,10 @@ app.use((req, res, next) => {
 app.use("/interactions", drugRoutes);
 app.use("/users", userRoutes);
 
+app.get("*", function (req, res, next) {
+  if (req.url === "/users/*" || req.url === "/interactions/*") return next();
+});
+
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "frontend/build")));
   app.get("*", (req, res) => {

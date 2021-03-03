@@ -5,9 +5,7 @@ const { DB_URI } = require("./config");
 
 const db = new Client({
   connectionString: DB_URI,
-  ssl: {
-    rejectUnauthorized: false,
-  },
+  ssl: process.env.DATABASE_URL ? true : false,
 });
 
 db.connect();
