@@ -1,6 +1,6 @@
 const express = require("express");
 const User = require("../models/user");
-const ExpressError = require("../helpers/ExpressError");
+const ExpressError = require("../helpers/expressError");
 const jsonschema = require("jsonschema");
 const loginSchema = require("../schemas/login.json");
 const signupSchema = require("../schemas/signup.json");

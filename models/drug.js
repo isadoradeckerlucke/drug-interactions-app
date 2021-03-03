@@ -1,5 +1,5 @@
 const db = require("../db");
-const ExpressError = require("../helpers/ExpressError");
+const ExpressError = require("../helpers/expressError");
 const axios = require("axios");
 const BASE_URL = `https://rxnav.nlm.nih.gov/REST/`;
 
