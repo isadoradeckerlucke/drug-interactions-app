@@ -1,5 +1,5 @@
 const express = require("express");
-const Drug = require("../models/Drug");
+const Drug = require("../models/drug");
 const router = express.Router({ mergeParams: true });
 
 router.get("/search/single/:name", async function (req, res, next) {
