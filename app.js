@@ -27,8 +27,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/interactions", drugRoutes);
-app.use("/users", userRoutes);
+app.use("/api/interactions", drugRoutes);
+app.use("/api/users", userRoutes);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "frontend/build")));
