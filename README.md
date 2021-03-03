@@ -1,6 +1,10 @@
 # drug-interaction-app
 Application to track medication interactions
 
+## deployed app
+
+https://drug-interactions-app.herokuapp.com/ 
+
 ## APIs
 drug interaction: https://rxnav.nlm.nih.gov/InteractionAPIs.html#
 
