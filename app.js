@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get("*", (req, res) => {
-  res.sendFile("index.html", { root: "/frontend/public" });
+  res.sendFile("index.html", { root: "/frontend/build" });
 });
 
 /** 404 handler */
