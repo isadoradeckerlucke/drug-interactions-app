@@ -1,4 +1,4 @@
-const ExpressError = require("./ExpressError");
+const ExpressError = require("./expressError");
 
 function sqlPartialUpdate(data, js) {
   const keys = Object.keys(data);
