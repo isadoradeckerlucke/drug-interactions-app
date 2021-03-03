@@ -1,0 +1,7 @@
+export const SEARCH_DRUGS = "SEARCH_DRUGS";
+export const RESET_INTERACTIONS = "RESET_INTERACTIONS";
+export const RESET_LOADING = "RESET_LOADING";
+export const SET_SEARCH_TERM = "SET_SEARCH_TERM";
+export const TOGGLE_LOADING = "TOGGLE_LOADING";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const LOG_OUT = "LOG_OUT";

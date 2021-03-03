@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`users page works as expected matches initial snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    you must be logged in as test3 in order to view this page
+  </h1>
+</DocumentFragment>
+`;

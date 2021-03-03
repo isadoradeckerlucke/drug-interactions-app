@@ -1,0 +1,9 @@
+div.list-group-item {
+    width: 50%;
+}
+
+div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

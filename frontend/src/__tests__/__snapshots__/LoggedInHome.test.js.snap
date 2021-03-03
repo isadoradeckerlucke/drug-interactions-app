@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page works as expected matches snapshot, logged in user 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Welcome to the Drug Interaction Hub, testuser
+    </h2>
+    <h4>
+      interactions with your saved medications:
+    </h4>
+    <p
+      id="error-holder"
+    />
+    <p>
+      sorry, no results were found
+    </p>
+     
+  </div>
+</DocumentFragment>
+`;

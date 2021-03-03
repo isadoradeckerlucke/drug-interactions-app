@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interaction list works as expected matches snapshot with interactions found 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="table-responsive"
+    >
+      <table
+        class="table table-striped table-bordered table-hover"
+      >
+        <thead>
+          <tr>
+            <th>
+              drug 1
+            </th>
+            <th>
+              drug 2
+            </th>
+            <th>
+              description
+            </th>
+            <th>
+              severity
+            </th>
+            <th>
+              comment
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td />
+            <td />
+            <td />
+            <td />
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`interaction list works as expected matches snapshot with no interactions found 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="table-responsive"
+    >
+      <table
+        class="table table-striped table-bordered table-hover"
+      >
+        <thead>
+          <tr>
+            <th>
+              drug 1
+            </th>
+            <th>
+              drug 2
+            </th>
+            <th>
+              description
+            </th>
+            <th>
+              severity
+            </th>
+            <th>
+              comment
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td />
+            <td />
+            <td />
+            <td />
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;

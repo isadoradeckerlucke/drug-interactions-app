@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page works as expected matches snapshot, logged in user 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Welcome to the Drug Interaction Hub, testuser
+    </h1>
+    <p>
+      you haven't saved any medications yet!
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`home page works as expected matches snapshot, logged out user 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <h2>
+        Welcome to the Drug Interaction Hub
+      </h2>
+      <h4>
+        log in or sign up to see your saved medications
+      </h4>
+    </div>
+    <h6>
+      disclaimer: this site can not provide specific medical advice, and is only intended to provide more information to users. please consult with a physician before making medical decisions.
+    </h6>
+  </div>
+</DocumentFragment>
+`;

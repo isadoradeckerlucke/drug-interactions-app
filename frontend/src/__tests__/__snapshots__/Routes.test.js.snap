@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes work as expected matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Welcome to the Drug Interaction Hub, testuser
+    </h1>
+    <p>
+      you haven't saved any medications yet!
+    </p>
+  </div>
+</DocumentFragment>
+`;

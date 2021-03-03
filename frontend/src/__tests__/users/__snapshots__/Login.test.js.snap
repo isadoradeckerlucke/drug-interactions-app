@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search form works as expected matches initial snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Log In
+    </h1>
+    <h3>
+      please log testuser out before proceeding.
+    </h3>
+  </div>
+</DocumentFragment>
+`;

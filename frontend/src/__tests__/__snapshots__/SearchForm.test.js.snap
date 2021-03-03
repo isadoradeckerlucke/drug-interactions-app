@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search form works as expected matches initial snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      search for high severity interactions with a single drug, or get all interactions between multiple drugs.
+    </h3>
+    <form
+      class=""
+    >
+      <label
+        class="form-label"
+        for="drugName"
+      >
+        search interactions:
+      </label>
+      <input
+        class="form-control"
+        name="drugName"
+        placeholder="drug name(s)"
+        value=""
+      />
+      <br />
+      <div
+        class="form-group"
+      >
+        <div
+          class="form-check"
+        >
+          <input
+            class="form-check-input"
+            id="formBasicCheckbox"
+            name="saveBool"
+            type="checkbox"
+            value="false"
+          />
+          <label
+            class="form-check-label"
+            for="formBasicCheckbox"
+            title=""
+          >
+            add searched drugs to saved list
+          </label>
+        </div>
+      </div>
+      <small
+        class="form-text text-muted"
+        id="searchHelpBlock"
+      >
+        please separate multiple drug names by commas
+      </small>
+      <br />
+      <button
+        class="btn btn-lg btn-dark btn btn-primary"
+        type="submit"
+      >
+        search
+      </button>
+      <p
+        id="error-holder"
+      />
+    </form>
+    <br />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`search form works as expected matches snapshot with search term in 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      search for high severity interactions with a single drug, or get all interactions between multiple drugs.
+    </h3>
+    <form
+      class=""
+    >
+      <label
+        class="form-label"
+        for="drugName"
+      >
+        search interactions:
+      </label>
+      <input
+        class="form-control"
+        name="drugName"
+        placeholder="drug name(s)"
+        value="adderall"
+      />
+      <br />
+      <div
+        class="form-group"
+      >
+        <div
+          class="form-check"
+        >
+          <input
+            class="form-check-input"
+            id="formBasicCheckbox"
+            name="saveBool"
+            type="checkbox"
+            value="false"
+          />
+          <label
+            class="form-check-label"
+            for="formBasicCheckbox"
+            title=""
+          >
+            add searched drugs to saved list
+          </label>
+        </div>
+      </div>
+      <small
+        class="form-text text-muted"
+        id="searchHelpBlock"
+      >
+        please separate multiple drug names by commas
+      </small>
+      <br />
+      <button
+        class="btn btn-lg btn-dark btn btn-primary"
+        type="submit"
+      >
+        search
+      </button>
+      <p
+        id="error-holder"
+      />
+    </form>
+    <br />
+  </div>
+</DocumentFragment>
+`;
