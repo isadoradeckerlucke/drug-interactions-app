@@ -1,5 +1,6 @@
 import axios from "axios";
 const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000/api";
+console.log("******", process.env.REACT_APP_BASE_URL, "base url***********");
 
 class DrugInteractionApi {
   static async request(endpoint, data = {}, method = "get") {
