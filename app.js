@@ -8,7 +8,7 @@ const morgan = require("morgan");
 const app = express();
 const path = require("path");
 
-app.use(express.static(path.join(__dirname, "frontend/build")));
+// app.use(express.static(path.join(__dirname, "frontend/build")));
 
 app.use(morgan("tiny"));
 app.use(cors());
@@ -30,8 +30,19 @@ app.use((req, res, next) => {
 app.use("/interactions", drugRoutes);
 app.use("/users", userRoutes);
 
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname + "/frontend/build/index.html"));
+// });
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "frontend/build")));
+  app.get("*", (req, res) => {
+    res.sendFile(path.join((__dirname = "frontend/build/index.html")));
+  });
+}
+
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/frontend/build/index.html"));
+  res.sendFile(path.join(__dirname + "/frontend/public/index.html"));
 });
 
 /** 404 handler */
